@@ -1,0 +1,60 @@
+/* A modern CSS reset to make browsers consistent */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    /* This is a modern way to center content perfectly */
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    color: #1c1e21;
+}
+
+.prompt-display {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    min-height: 100px; /* Gives space so the box doesn't jump in size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(90deg, #6c5ce7, #a29bfe);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(108, 92, 231, 0.4);
+}
+
