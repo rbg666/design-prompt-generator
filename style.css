@@ -58,3 +58,32 @@ button:hover {
     box-shadow: 0 6px 25px rgba(108, 92, 231, 0.4);
 }
 
+/* --- STYLES FOR RESOURCES (Image styles removed) --- */
+
+.resource-container {
+    display: none; /* Hidden by default */
+    margin-top: -10px;
+    margin-bottom: 30px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+#style-link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #6c5ce7;
+    background-color: #f0f2f5;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+#style-link:hover {
+    background-color: #e4e6eb;
+}
+
+/* Keyframe animation for fade-in effect */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
