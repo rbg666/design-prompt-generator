@@ -114,7 +114,7 @@ function generatePrompt() {
 
     // Populate and show the resource container link
     styleLink.href = randomStyleObject.link;
-    styleLink.textContent = `Learn More About: ${randomStyleObject.name.replace("in a ", "").replace("in an ", "").replace(" style", "")}`;
+    styleLink.textContent = `Learn More About: ${randomStyleObject.name.replace("in a ", "").replace("in an ", "").replace("in the ", "").replace(" style", "")}`;
     
     resourceContainer.style.display = "block"; // Make the container visible
 }
